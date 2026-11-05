@@ -87,6 +87,28 @@ const products = {
     shippingInfo:
       "• 출고 일정: 영업일 기준 1–2일 이내 출고<br>• 배송비: 무료배송<br>• 교환/반품: 수령 후 7일 이내 가능"
   },
+  rose_biker: {
+    chapter: "CHAPTER 04 — MOON ROSE (WOMEN)",
+    title: "월계 月季 BIKER DENIM JACKET (WOMEN)",
+    price: 690000,
+    usdPrice: 530,
+    image: "assets/rose-denim-jacket-model-front.png",
+    alt: "비대칭 지퍼 여밈 왼쪽 앞판을 따라 자개 장미 넝쿨이 흐르는 여성용 블랙 데님 바이커 재킷",
+    stockBadge: "IN STOCK",
+    modelNote: "WOMEN 174cm / M 사이즈 착용 · 허리를 잡아주는 슬림 바이커 핏",
+    description:
+      "깃을 세운 하이넥과 사선 지퍼 여밈의 슬림 바이커 실루엣입니다. 왼쪽 앞판 지퍼 옆을 따라 자개 장미 넝쿨이 밑단까지 흘러내리고, 등판 오른쪽 아래에서 한 송이 장미가 다시 피어납니다. 소매 끝 지퍼로 손목 실루엣을 조절할 수 있습니다.",
+    stock: { S: 3, M: 4, L: 2 },
+    sizeSpec: [
+      { size: "S", shoulder: "33.5", chest: "41.5", sleeve: "59", length: "52.5" },
+      { size: "M", shoulder: "35", chest: "44", sleeve: "60", length: "54" },
+      { size: "L", shoulder: "36.5", chest: "46.5", sleeve: "61", length: "55.5" }
+    ],
+    fabricCare:
+      "• 겉감: 블랙 스트레치 코튼 데님<br>• 디테일: 앞판 지퍼 라인·등판 하단 자개(나전) 장미 넝쿨 아트워크 · 비대칭 메인 지퍼 · 웰트 지퍼 포켓 2구 · 소매 끝 지퍼<br>• 세탁: 지퍼를 모두 잠그고 뒤집은 상태로 드라이클리닝 권장. 아트워크 부위는 직접 다림질하지 마십시오.",
+    shippingInfo:
+      "• 출고 일정: 영업일 기준 2–3일 이내 아틀리에 수트케이스 패키지 출고<br>• 배송비: 무료배송<br>• 교환/반품: 수령 후 7일 이내 가능"
+  },
   plum_coat: {
     chapter: "ATELIER EDITION — WINTER PLUM",
     title: "설매 雪梅 ASYMMETRIC WOOL COAT",
@@ -118,7 +140,7 @@ const policies = {
       <h4>1. 배송 안내</h4>
       <ul>
         <li><strong>전 품목 무료배송:</strong> 나전, 하나의 모든 컬렉션은 아틀리에 전용 패키지와 함께 무료로 배송됩니다.</li>
-        <li><strong>출고 소요일:</strong> 일반 컬렉션(비상·역풍·송영)은 주문 확정 후 영업일 기준 1–3일 이내 출고됩니다.</li>
+        <li><strong>출고 소요일:</strong> 일반 컬렉션(비상·역풍·송영·월계)은 주문 확정 후 영업일 기준 1–3일 이내 출고됩니다.</li>
         <li><strong>아틀리에 오더(설매 코트):</strong> 세공 검수 및 테일러링 마감 후 영업일 기준 5–7일 이내 출고됩니다.</li>
       </ul>
       <h4>2. 교환 및 반품 규정</h4>
